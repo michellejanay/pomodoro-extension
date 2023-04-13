@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "25 minute timer",
+  "icons": {
+    "16": "tomato-clock.png",
+    "48": "tomato-clock.png",
+    "128": "tomato-clock.png"
+  },
+  "action": {
+    "default_icon": "tomato-clock.png",
+    "title": "Pomodoro Timer",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage", "alarms", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options/options.html"
+}

@@ -1,0 +1,23 @@
+body {
+  background-color: whitesmoke;
+}
+label {
+  font-size: 1.5em;
+}
+input {
+  display: block;
+  margin: 1em 0;
+  font-size: 2em;
+  text-align: center;
+}
+#save-btn {
+  background-color: indianred;
+  color: rgb(255, 252, 223);
+  border: none;
+  padding: 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+#save-btn:hover {
+  background-color: rgb(145, 25, 25);
+}
